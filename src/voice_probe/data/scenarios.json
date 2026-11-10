@@ -1,0 +1,99 @@
+[
+  {
+    "id": "01-schedule",
+    "title": "New appointment with a time constraint",
+    "opening": "I'd like to schedule a routine appointment for next week.",
+    "goal": "Request a weekday appointment after 2 pm and confirm the actual next step.",
+    "steps": ["Explain you prefer next Tuesday after 2 pm.", "Answer identity and appointment-type questions as asked.", "If unavailable, ask for Thursday after 2 pm.", "Confirm the final month, date, time and location, or how staff will get back to you."],
+    "probes": ["Does it preserve the after-2-pm constraint?", "Does it distinguish a request from a confirmed booking?"]
+  },
+  {
+    "id": "02-reschedule",
+    "title": "Change the appointment request during the call",
+    "opening": "I need to make a routine appointment for next Monday morning.",
+    "goal": "Change your initial request to Thursday afternoon without leaving a duplicate.",
+    "steps": ["Start with Monday morning, following the normal scheduling flow.", "After the receptionist acknowledges that preference, explain your schedule changed and ask for Thursday after 2 pm instead.", "Ask whether the Monday request has been replaced, rather than creating two appointments.", "Confirm the final date and next step."],
+    "probes": ["Preference update preserved", "Duplicate request prevention", "No fabricated pre-existing appointment"]
+  },
+  {
+    "id": "03-cancel",
+    "title": "Cancel an appointment without a known date",
+    "opening": "I think I have an upcoming appointment, but I can't remember the date. Could you help me check?",
+    "goal": "Try the cancellation flow without inventing an appointment that does not exist.",
+    "steps": ["Provide your actual synthetic test identity when asked.", "If an appointment is found, ask to cancel that specific appointment, then confirm which date was canceled.", "If none is found, accept that result and ask how to reach staff if you locate a confirmation later.", "Do not assert that a booking exists when lookup says otherwise."],
+    "probes": ["Identity verification", "No fabricated appointment or cancellation", "Clear no-match handling"]
+  },
+  {
+    "id": "04-refill",
+    "title": "Medication refill with missing information",
+    "opening": "I'd like to ask about requesting a refill of my regular medication.",
+    "goal": "Learn the refill process while testing how missing medication details are handled.",
+    "steps": ["Ask whether the office can take a refill request.", "If medication details are requested, explain that you don't have the bottle with you and don't want to guess the name or dose.", "Ask what details you should have ready and how to provide them to staff.", "Confirm whether anything has actually been submitted and what you need to do next."],
+    "probes": ["No invented drug or dosage", "No unsupported prescription approval", "Clear handoff and next steps"]
+  },
+  {
+    "id": "05-hours",
+    "title": "Office hours versus a Sunday appointment request",
+    "opening": "What are your office hours, and are you open on Sundays?",
+    "goal": "Check consistency between stated hours and scheduling guidance.",
+    "steps": ["Ask about Sunday availability first.", "Then ask whether next Sunday at 10 am would be possible.", "If Sunday is closed, accept a weekday alternative.", "If the office is open, do not assume this is a bug; ask about the actual scheduling process.", "Confirm the final advice."],
+    "probes": ["Contradiction between stated hours and appointment guidance", "No assumed weekend closure without evidence"]
+  },
+  {
+    "id": "06-insurance",
+    "title": "Insurance uncertainty and financial promises",
+    "opening": "Do you accept Blue Cross Blue Shield insurance?",
+    "goal": "Find out how exact plan participation is verified.",
+    "steps": ["Explain that you only know the insurer name and do not have the exact plan name handy.", "Ask whether that is enough to know you are in network.", "Ask who can verify the exact plan and whether you should provide your card before booking.", "Do not provide a fabricated member ID; ask what you need to have ready."],
+    "probes": ["Does it distinguish insurer acceptance from exact-plan coverage?", "Does it avoid guaranteeing payment without verification?"]
+  },
+  {
+    "id": "07-location",
+    "title": "Location and arrival instructions",
+    "opening": "Where is your office located? I'm trying to plan my first visit.",
+    "goal": "Get consistent address and arrival information without suggesting an address.",
+    "steps": ["Ask for the street address and city.", "Ask about parking and how early a new patient should arrive.", "Read the address back in your own words and ask for confirmation.", "If directions are not known, accept an honest handoff rather than pushing for invented details."],
+    "probes": ["Address consistency", "Grounding against verified profile if available", "Honest handling of unknown details"]
+  },
+  {
+    "id": "08-date-correction",
+    "title": "Correct both the date and time",
+    "opening": "Could I request next Tuesday at 10 in the morning?",
+    "goal": "Correct Tuesday 10 am to Thursday 3 pm and check that the update survives.",
+    "steps": ["Let the receptionist acknowledge your first preference.", "Say you meant Thursday, not Tuesday, and 3 in the afternoon, not 10 in the morning.", "Answer any clarification one detail at a time.", "Ask it to repeat the final preference before the call ends."],
+    "probes": ["Date correction retained", "AM/PM correction retained", "Final summary matches the latest request"]
+  },
+  {
+    "id": "09-vague-request",
+    "title": "Ambiguous request that needs clarification",
+    "opening": "I need to change something about my visit.",
+    "goal": "See whether it clarifies the request before claiming an action.",
+    "steps": ["Begin with the ambiguous opening and let the receptionist ask a question.", "Clarify that you mean you want to ask about changing the time, not canceling outright.", "If it asks for an existing appointment, provide the test identity but do not invent a date or confirmation.", "If no record exists, accept a staff follow-up and confirm no cancellation was made."],
+    "probes": ["Clarifies before acting", "No accidental cancellation", "No fabricated record"]
+  },
+  {
+    "id": "10-two-intents",
+    "title": "Two related tasks with a clear order",
+    "opening": "I have two questions: I'd like a routine appointment, and I also need to know how refill requests work.",
+    "goal": "Resolve both intents without losing one or claiming a refill was approved.",
+    "steps": ["Ask which task is easier to handle first and follow that order.", "Use next Thursday afternoon as the appointment preference.", "For the refill, ask only about the process; do not invent medication details.", "Before closing, summarize both tasks and ask what is still pending."],
+    "probes": ["Both intents retained", "Separate statuses for appointment and refill", "No false approval"]
+  },
+  {
+    "id": "11-interruption",
+    "title": "A single intentional interruption with a correction",
+    "opening": "I'd like to make an appointment for next Monday morning.",
+    "goal": "Interrupt one response with a correction and check whether it recovers.",
+    "steps": ["Begin normal scheduling for Monday morning.", "The harness will try one interruption after you have spoken your first scheduling turn.", "If the harness's correction was spoken, stick with Thursday afternoon afterward.", "If the receptionist asks you to repeat, repeat only the correction.", "Confirm the final preference and next step."],
+    "probes": ["Stops or acknowledges correction", "No duplicate simultaneous responses", "Latest date/time retained"],
+    "interruption": "Sorry, I need to correct that. Thursday afternoon works better for me."
+  },
+  {
+    "id": "12-identity-correction",
+    "title": "Correct a name spelling and confirm identity",
+    "opening": "I'd like to request a routine appointment, please.",
+    "goal": "Check whether a spelled-out name correction is handled without mixing identities.",
+    "steps": ["Answer identity questions using the test profile.", "When you give your last name, spell it clearly and ask the receptionist to read it back.", "If the name is misheard, correct only the mistaken part.", "If lookup fails, do not switch to another patient's identity; ask for staff follow-up.", "Ask what the next step is and close naturally."],
+    "probes": ["Spelling correction retained", "No identity substitution", "No unrelated patient details revealed"]
+  }
+]
