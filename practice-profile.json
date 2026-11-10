@@ -1,0 +1,27 @@
+{
+  "test_patient": {
+    "first_name": "Alex",
+    "last_name": "Morgan",
+    "date_of_birth": "1988-04-12",
+    "email": "alex.morgan@example.com",
+    "visit_reason": "A non-urgent orthopedic consultation for mild knee discomfort after exercise.",
+    "symptom_duration": "About two weeks; no recent injury.",
+    "insurance": "Blue Cross Blue Shield; exact plan not known.",
+    "notes": "Synthetic test identity. Match these values to the assessment test account before calling. The callback number is injected from CALLER_ID."
+  },
+  "practice": {
+    "name": "Pivot Point Orthopedics",
+    "address": null,
+    "hours": null,
+    "accepted_insurance": null
+  },
+  "verified_facts": [
+    {
+      "fact": "The assessment setup URL opens a Pivot Point Orthopedics intake form asking for first name, last name, email, phone number and date of birth.",
+      "source": "https://pivotpointortho.com/intake?utm_source=athena",
+      "scope": "Observed signup page only; no office hours, address, patient record or successful registration verified."
+    }
+  ],
+  "test_account_created": false,
+  "notes": "Create the required test account first. Copy facts that the setup actually shows; leave unknown facts null. Do not dial its confirmation-screen number. Then set test_account_created to true."
+}
