@@ -1,0 +1,21 @@
+PATIENT SIMULATOR CALL TRANSCRIPT
+Time offsets refer to recording.ogg; estimated offsets are marked ~.
+receptionist = system under test; patient = our simulator.
+ASR is not ground truth. Check the recording before confirming a finding.
+
+[00:05] turn-001 RECEPTIONIST: This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI.
+[00:17] turn-002 PATIENT: Hi, what are your office hours, and are you open on Sundays?
+[00:24] turn-003 RECEPTIONIST: Pivot Point Orthopedics is open Monday through Friday, Our hours are nine AM to four PM on Monday, Tuesday, and Thursday. Twelve PM to seven PM on Wednesday, and nine AM to twelve PM on Friday. We are closed on Saturdays and Sundays,
+[00:40] turn-004 PATIENT: Thanks. Would next Sunday at 10 AM be possible, or should I look at a weekday instead?
+[00:48] turn-005 RECEPTIONIST: We are closed on Sundays, so appointments are only available on week days. Would you like to look at available times during the week?
+[00:57] turn-006 PATIENT: Yes, please — what weekday times do you have available?
+[01:03] turn-007 RECEPTIONIST: I'll check the schedule for you. First, may I have your full name and date of birth?
+[01:09] turn-008 PATIENT: Mason Boomgaard, and my date of birth is November 16, 2001.
+[01:19] turn-009 RECEPTIONIST: Before I check the schedule, can you tell me what kind of visit you need? For example, is this for a routine checkup, a follow-up, a new patient consultation? An urgent concern, a procedure or physical therapy?
+[01:34] turn-010 PATIENT: It’s a non-urgent orthopedic consultation for mild knee discomfort after exercise.
+[01:43] turn-011 RECEPTIONIST: Do you have a specific provider you'd like to see, or are you open to any available provider?
+[01:50] turn-012 PATIENT: I’m open to any available provider.
+[01:55] turn-013 RECEPTIONIST: There are no available appointments between today and Thursday, Would you like me to check for openings later in the month, or is there a specific weekday that works best for you?
+[02:06] turn-014 PATIENT: A weekday works best for me. What’s available next week?
+[02:10] turn-015 RECEPTIONIST: I'll look for the next available weekday appointment. One moment while I check for openings later in the month.
+[~02:17] turn-016 RECEPTIONIST: There are

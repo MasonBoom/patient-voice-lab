@@ -1,0 +1,79 @@
+{
+  "source": "LiveKit committed session history",
+  "recording_epoch": 1794471285.2550595,
+  "note": "ASR and spoken-text alignment may contain errors. Verify quotes against audio.",
+  "turns": [
+    {
+      "id": "turn-001",
+      "speaker": "receptionist",
+      "text": "This call may be recorded for quality and training purposes.",
+      "start_seconds": 5.289,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_a5d3263b6950"
+    },
+    {
+      "id": "turn-002",
+      "speaker": "receptionist",
+      "text": "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?",
+      "start_seconds": 11.74,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_c1f8a139e475"
+    },
+    {
+      "id": "turn-003",
+      "speaker": "patient",
+      "text": "Do you accept Blue Cross Blue Shield insurance?",
+      "start_seconds": 18.398,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_342a07a875b6"
+    },
+    {
+      "id": "turn-004",
+      "speaker": "receptionist",
+      "text": "Yes. Pivot Point Orthopedics accepts most insurance plans including Blue Cross Blue Shield. Would you like help updating your insurance information or have any other questions?",
+      "start_seconds": 24.041,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_3bb8f4542e4e"
+    },
+    {
+      "id": "turn-005",
+      "speaker": "patient",
+      "text": "I only know the insurer name, not the exact plan. Is that enough to know I’m in network, and who verifies the exact plan before I book?",
+      "start_seconds": 34.903,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_25e764559bdb"
+    },
+    {
+      "id": "turn-006",
+      "speaker": "receptionist",
+      "text": "We accept most Blue Cross Blue Shield plans, but coverage can vary by specific plan. The clinic staff will verify your exact insurance details before your visit, If you'd like, I can help you update your insurance information or answer questions about booking an appointment.",
+      "start_seconds": 46.438,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_0829959ae392"
+    },
+    {
+      "id": "turn-007",
+      "speaker": "patient",
+      "text": "Should I provide my insurance card before booking, and what do you need me to have ready?",
+      "start_seconds": 66.649,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_9b862cbba31f"
+    },
+    {
+      "id": "turn-008",
+      "speaker": "receptionist",
+      "text": "It's helpful to have your insurance card ready before booking. We'll need the insurer name, your member ID, and group number if available. If you don't have all the details now, you can still book, but the clinic may contact you for more information before your visit. Would you like to update your insurance or schedule an appointment?",
+      "start_seconds": 74.388,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_35126796d851"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "source": "LiveKit committed session history",
+  "recording_epoch": 1794471132.9532323,
+  "note": "ASR and spoken-text alignment may contain errors. Verify quotes against audio.",
+  "turns": [
+    {
+      "id": "turn-001",
+      "speaker": "receptionist",
+      "text": "This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI.",
+      "start_seconds": 5.756,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_f9b53e57a4e4"
+    },
+    {
+      "id": "turn-002",
+      "speaker": "patient",
+      "text": "Hi, what are your office hours, and are you open on Sundays?",
+      "start_seconds": 17.571,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_fabb201e0270"
+    },
+    {
+      "id": "turn-003",
+      "speaker": "receptionist",
+      "text": "Pivot Point Orthopedics is open Monday through Friday, Our hours are nine AM to four PM on Monday, Tuesday, and Thursday. Twelve PM to seven PM on Wednesday, and nine AM to twelve PM on Friday. We are closed on Saturdays and Sundays,",
+      "start_seconds": 24.707,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_15619ec9762d"
+    },
+    {
+      "id": "turn-004",
+      "speaker": "patient",
+      "text": "Thanks. Would next Sunday at 10 AM be possible, or should I look at a weekday instead?",
+      "start_seconds": 40.622,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_355ed8d29b24"
+    },
+    {
+      "id": "turn-005",
+      "speaker": "receptionist",
+      "text": "We are closed on Sundays, so appointments are only available on week days. Would you like to look at available times during the week?",
+      "start_seconds": 48.457,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_ef94218d24df"
+    },
+    {
+      "id": "turn-006",
+      "speaker": "patient",
+      "text": "Yes, please — what weekday times do you have available?",
+      "start_seconds": 57.507,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_4752f328a962"
+    },
+    {
+      "id": "turn-007",
+      "speaker": "receptionist",
+      "text": "I'll check the schedule for you. First, may I have your full name and date of birth?",
+      "start_seconds": 63.808,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_96d8ae00974a"
+    },
+    {
+      "id": "turn-008",
+      "speaker": "patient",
+      "text": "Mason Boomgaard, and my date of birth is November 16, 2001.",
+      "start_seconds": 69.012,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_909f7c0ab479"
+    },
+    {
+      "id": "turn-009",
+      "speaker": "receptionist",
+      "text": "Before I check the schedule, can you tell me what kind of visit you need? For example, is this for a routine checkup, a follow-up, a new patient consultation? An urgent concern, a procedure or physical therapy?",
+      "start_seconds": 79.258,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_d8281cdc7113"
+    },
+    {
+      "id": "turn-010",
+      "speaker": "patient",
+      "text": "It’s a non-urgent orthopedic consultation for mild knee discomfort after exercise.",
+      "start_seconds": 94.939,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_c78024807649"
+    },
+    {
+      "id": "turn-011",
+      "speaker": "receptionist",
+      "text": "Do you have a specific provider you'd like to see, or are you open to any available provider?",
+      "start_seconds": 103.657,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_8bb414df0eb2"
+    },
+    {
+      "id": "turn-012",
+      "speaker": "patient",
+      "text": "I’m open to any available provider.",
+      "start_seconds": 110.118,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_427ea3e75c85"
+    },
+    {
+      "id": "turn-013",
+      "speaker": "receptionist",
+      "text": "There are no available appointments between today and Thursday, Would you like me to check for openings later in the month, or is there a specific weekday that works best for you?",
+      "start_seconds": 115.657,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_f24c9b7313e1"
+    },
+    {
+      "id": "turn-014",
+      "speaker": "patient",
+      "text": "A weekday works best for me. What’s available next week?",
+      "start_seconds": 126.18,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_8817ea3358e3"
+    },
+    {
+      "id": "turn-015",
+      "speaker": "receptionist",
+      "text": "I'll look for the next available weekday appointment. One moment while I check for openings later in the month.",
+      "start_seconds": 130.307,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_29edec251c3f"
+    },
+    {
+      "id": "turn-016",
+      "speaker": "receptionist",
+      "text": "There are",
+      "start_seconds": 137.577,
+      "timing_source": "message_created_estimate",
+      "interrupted": false,
+      "message_id": "item_a13e6392df49"
+    }
+  ]
+}

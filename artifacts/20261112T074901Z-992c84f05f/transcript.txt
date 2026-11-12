@@ -1,0 +1,25 @@
+PATIENT SIMULATOR CALL TRANSCRIPT
+Time offsets refer to recording.ogg; estimated offsets are marked ~.
+receptionist = system under test; patient = our simulator.
+ASR is not ground truth. Check the recording before confirming a finding.
+
+[00:05] turn-001 RECEPTIONIST: This call may be recorded for quality and training purposes.
+[00:12] turn-002 RECEPTIONIST: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[00:18] turn-003 PATIENT: I need to make a routine appointment for next Monday morning.
+[00:26] turn-004 RECEPTIONIST: I see you're calling from the number we have on file. Am I speaking with Mason?
+[00:31] turn-005 PATIENT: Yes, this is Mason.
+[00:35] turn-006 RECEPTIONIST: Please provide your date of birth.
+[00:38] turn-007 PATIENT: November 16, 2001.
+[00:44] turn-008 RECEPTIONIST: Just to confirm, is this routine appointment for a general office visit? Or is there another reason for your visit?
+[00:54] turn-009 PATIENT: It’s for mild knee discomfort after exercise, and it’s been going on for about two weeks with no recent injury.
+[01:09] turn-010 RECEPTIONIST: You already have an office visit scheduled with doctors of big new on Tuesday, November seventeenth at two thirty PM at Pivot Point Orthopedics. Would you like to keep this appointment, reschedule it to Monday morning, or do something else?
+[01:24] turn-011 PATIENT: My schedule changed, so I’d like Thursday after 2 PM instead. Is the Monday request replaced, so I don’t end up with two appointments?
+[01:33] turn-012 RECEPTIONIST: You have an appointment with doctor Zviigniew Lakoski on Tuesday, November seventeenth at two thirty PM. I'll look for openings on Thursday after two PM instead. One moment. The next opening with doctor Likoski on a Thursday afternoon is tomorrow, November twelfth,
+[01:50] turn-013 RECEPTIONIST: at two thirty PM in Nashville. Would you like to move your appointment to that time, or would you prefer a later Thursday?
+[01:59] turn-014 PATIENT: Thursday after 2:30 PM works for me. Please move the existing appointment to that time and replace the Monday request so I only have one appointment.
+[02:09] turn-015 RECEPTIONIST: I have a slot on Thursday, November nineteenth at two thirty PM with doctor Likoski in Nashville. Would you like to reschedule your current appointment to this date and time?
+[02:19] turn-016 PATIENT: Yes, please reschedule the current appointment to Thursday, November 19 at 2:30 PM.
+[02:26] turn-017 RECEPTIONIST: Can you tell me the reason you need to reschedule your appointment?
+[02:30] turn-018 PATIENT: My schedule changed, and I’m no longer available on the current day.
+[02:37] turn-019 RECEPTIONIST: Understood. I'm moving your appointment to Thursday, November nineteenth. At two thirty PM with doctor Lukowski in Nashville. I'll confirm once it's rescheduled. One moment. Your appointment has been moved to Thursday, November nineteenth two thirty PM with doctor Zegbing Yulukovsky. Would you like me to text you the new appointment details?
+[02:59] turn-020 PATIENT: Yes, please text me the new appointment details.

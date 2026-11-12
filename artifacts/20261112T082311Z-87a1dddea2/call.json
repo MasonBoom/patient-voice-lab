@@ -1,0 +1,34 @@
+{
+  "run_id": "20261112T082311Z-87a1dddea2",
+  "scenario": {
+    "id": "07-location",
+    "title": "Location and arrival instructions",
+    "opening": "Where is your office located? I'm trying to plan my first visit.",
+    "goal": "Get consistent address and arrival information without suggesting an address.",
+    "steps": [
+      "Ask for the street address and city.",
+      "Ask about parking and how early a new patient should arrive.",
+      "Read the address back in your own words and ask for confirmation.",
+      "If directions are not known, accept an honest handoff rather than pushing for invented details."
+    ],
+    "probes": [
+      "Address consistency",
+      "Grounding against verified profile if available",
+      "Honest handling of unknown details"
+    ]
+  },
+  "caller_id": "+15025032611",
+  "destination": "+18054398008",
+  "room": "patient-test-20261112T082311Z-87a1dddea2",
+  "created_at": 1794471791.0460083,
+  "answered_at": 1794471797.2031286,
+  "models": {
+    "stt": "deepgram/nova-3",
+    "llm": "openai/gpt-5.4-mini",
+    "tts": "cartesia/sonic-3"
+  },
+  "turn_detection": "semantic",
+  "sdk_version": "1.8.11",
+  "sip_call_id": "SCL_qBkai9TByPkt",
+  "sip_participant_id": "PA_sSTWqCA2JYUu"
+}

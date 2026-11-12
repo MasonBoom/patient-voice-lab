@@ -1,0 +1,34 @@
+{
+  "run_id": "20261112T081212Z-1abe6629be",
+  "scenario": {
+    "id": "05-hours",
+    "title": "Office hours versus a Sunday appointment request",
+    "opening": "What are your office hours, and are you open on Sundays?",
+    "goal": "Check consistency between stated hours and scheduling guidance.",
+    "steps": [
+      "Ask about Sunday availability first.",
+      "Then ask whether next Sunday at 10 am would be possible.",
+      "If Sunday is closed, accept a weekday alternative.",
+      "If the office is open, do not assume this is a bug; ask about the actual scheduling process.",
+      "Confirm the final advice."
+    ],
+    "probes": [
+      "Contradiction between stated hours and appointment guidance",
+      "No assumed weekend closure without evidence"
+    ]
+  },
+  "caller_id": "+15025032611",
+  "destination": "+18054398008",
+  "room": "patient-test-20261112T081212Z-1abe6629be",
+  "created_at": 1794471132.1730788,
+  "answered_at": 1794471138.2865136,
+  "models": {
+    "stt": "deepgram/nova-3",
+    "llm": "openai/gpt-5.4-mini",
+    "tts": "cartesia/sonic-3"
+  },
+  "turn_detection": "semantic",
+  "sdk_version": "1.8.11",
+  "sip_call_id": "SCL_WLxP8NEbXzB9",
+  "sip_participant_id": "PA_E5zvz7GKWCQE"
+}

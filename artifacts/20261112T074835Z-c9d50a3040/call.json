@@ -1,0 +1,32 @@
+{
+  "run_id": "20261112T074835Z-c9d50a3040",
+  "scenario": {
+    "id": "02-reschedule",
+    "title": "Change the appointment request during the call",
+    "opening": "I need to make a routine appointment for next Monday morning.",
+    "goal": "Change your initial request to Thursday afternoon without leaving a duplicate.",
+    "steps": [
+      "Start with Monday morning, following the normal scheduling flow.",
+      "After the receptionist acknowledges that preference, explain your schedule changed and ask for Thursday after 2 pm instead.",
+      "Ask whether the Monday request has been replaced, rather than creating two appointments.",
+      "Confirm the final date and next step."
+    ],
+    "probes": [
+      "Preference update preserved",
+      "Duplicate request prevention",
+      "No fabricated pre-existing appointment"
+    ]
+  },
+  "caller_id": "+15025032611",
+  "destination": "+18054398008",
+  "room": "patient-test-20261112T074835Z-c9d50a3040",
+  "created_at": 1794469715.211943,
+  "answered_at": null,
+  "models": {
+    "stt": "deepgram/nova-3",
+    "llm": "openai/gpt-5.4-mini",
+    "tts": "cartesia/sonic-3"
+  },
+  "turn_detection": "semantic",
+  "sdk_version": "1.8.11"
+}

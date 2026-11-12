@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "end_reason": "error",
+  "error": "RuntimeError: Worker exited during the call."
+}

@@ -1,0 +1,5249 @@
+{
+  "job_id": "AJ_LPgXe7PGKAcr",
+  "room_id": "RM_jiRUZ5pqLyGM",
+  "room": "patient-test-20261112T075958Z-abbe539b5c",
+  "events": [
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_7d5f80973594",
+        "type": "agent_handoff",
+        "old_agent_id": null,
+        "new_agent_id": "patient",
+        "created_at": 1794470400.1328359
+      },
+      "created_at": 1794470400.133835
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "initializing",
+      "new_state": "listening",
+      "created_at": 1794470400.1473463
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": []
+      },
+      "created_at": 1794470401.7829366
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": []
+      },
+      "created_at": 1794470402.7840424
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": []
+      },
+      "created_at": 1794470403.834367
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": []
+      },
+      "created_at": 1794470404.8371775
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 5.04999999999999
+          }
+        ]
+      },
+      "created_at": 1794470405.8561823
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 5.04999999999999
+          }
+        ]
+      },
+      "created_at": 1794470405.883186
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1794470405.920184
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470406.2584085
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 5.04999999999999
+          }
+        ]
+      },
+      "created_at": 1794470406.8834124
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470407.2604978
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 5.04999999999999
+          }
+        ]
+      },
+      "created_at": 1794470407.9340394
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded for quality and",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470408.266039
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 5.04999999999999
+          }
+        ]
+      },
+      "created_at": 1794470408.9338593
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded for quality and training purposes.",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470409.2734346
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 8.549999999999986
+          }
+        ]
+      },
+      "created_at": 1794470409.3700905
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "This call may be recorded for quality and training purposes.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470409.371084
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 8.549999999999986
+          }
+        ]
+      },
+      "created_at": 1794470409.9881024
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 10.049999999999986
+          }
+        ]
+      },
+      "created_at": 1794470410.8621814
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 10.049999999999986
+          }
+        ]
+      },
+      "created_at": 1794470410.9841797
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 11.199999999999987
+          }
+        ]
+      },
+      "created_at": 1794470412.0119345
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 11.199999999999987
+          }
+        ]
+      },
+      "created_at": 1794470412.032936
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470411.6599383
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1794470412.3049364
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_9058a825d163",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470405.920184,
+          "stopped_speaking_at": 1794470411.6599383,
+          "transcription_delay": 0,
+          "end_of_turn_delay": 0.6449980735778809,
+          "on_user_turn_completed_delay": 0.00014940000255592167
+        },
+        "created_at": 1794470412.3049364,
+        "hash": null
+      },
+      "created_at": 1794470412.3469384
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1794470412.3469384
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1794470412.3689373
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470413.0194519
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1794470413.0334508
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 11.199999999999987
+          }
+        ]
+      },
+      "created_at": 1794470413.0344508
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 11.199999999999987
+          }
+        ]
+      },
+      "created_at": 1794470413.0564506
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 11.199999999999987
+          }
+        ]
+      },
+      "created_at": 1794470413.7270942
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point Ortho",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470414.0210943
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 11.199999999999987
+          }
+        ]
+      },
+      "created_at": 1794470414.0840948
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 13.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470414.7681224
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Thanks for calling Pivot Point Orthopaedics.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470414.7691224
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 13.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470415.0856924
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470415.7690856
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 13.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470416.134082
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 15.499999999999986
+          }
+        ]
+      },
+      "created_at": 1794470416.3243783
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Part of Pretty Good AI.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470416.3243783
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 15.499999999999986
+          }
+        ]
+      },
+      "created_at": 1794470417.1348825
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470417.3379447
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 16.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470417.7734883
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "How may I help you today?",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470417.7744915
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470417.4575644
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1794470418.1075642
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_428ae931467d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9855957033333334,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470412.3689373,
+          "stopped_speaking_at": 1794470417.4575644,
+          "transcription_delay": 0.3169271945953369,
+          "end_of_turn_delay": 0.6499998569488525,
+          "on_user_turn_completed_delay": 0.00013169999874662608
+        },
+        "created_at": 1794470418.1075642,
+        "hash": null
+      },
+      "created_at": 1794470418.112564
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1794470418.112564
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 1026,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 24,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 16.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470418.1835656
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 16.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470418.7062135
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1794470418.7977214
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 95,
+            "audio_duration": 4.133125000000001
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 16.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470419.1864004
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 16.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470419.5592132
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 16.949999999999985
+          }
+        ]
+      },
+      "created_at": 1794470420.2337573
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 19.549999999999983
+          }
+        ]
+      },
+      "created_at": 1794470420.3688247
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 19.549999999999983
+          }
+        ]
+      },
+      "created_at": 1794470421.2330225
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 19.549999999999983
+          }
+        ]
+      },
+      "created_at": 1794470422.2830455
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 19.549999999999983
+          }
+        ]
+      },
+      "created_at": 1794470423.2836177
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_3b6fff78abfa",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I think I have an upcoming appointment, but I can’t remember the date. Could you help me check?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        },
+        "metrics": {
+          "started_speaking_at": 1794470418.7977214,
+          "stopped_speaking_at": 1794470423.976922,
+          "llm_node_ttft": 0.45588240001234226,
+          "llm_node_tps": 276.0888637861269,
+          "llm_node_ttfs": 0.5396749000065029,
+          "tts_node_ttfb": 0.14898399999947287,
+          "playback_latency": 0.0,
+          "e2e_latency": 1.3401570320129395,
+          "llm_metadata": {
+            "model_name": "openai/gpt-5.4-mini",
+            "model_provider": "livekit"
+          },
+          "tts_metadata": {
+            "model_name": "cartesia/sonic-3",
+            "model_provider": "livekit"
+          }
+        },
+        "created_at": 1794470418.112564,
+        "hash": null
+      },
+      "created_at": 1794470423.976922
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470423.976922
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 19.549999999999983
+          }
+        ]
+      },
+      "created_at": 1794470424.3335128
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 19.549999999999983
+          }
+        ]
+      },
+      "created_at": 1794470425.3334012
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 24.549999999999972
+          }
+        ]
+      },
+      "created_at": 1794470425.3623977
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 24.549999999999972
+          }
+        ]
+      },
+      "created_at": 1794470426.3828645
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1794470426.5193694
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 24.549999999999972
+          }
+        ]
+      },
+      "created_at": 1794470427.3833685
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can look that up for",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470427.5103946
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 27.14999999999997
+          }
+        ]
+      },
+      "created_at": 1794470427.9629142
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can look that up for you.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470427.9639206
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 27.14999999999997
+          }
+        ]
+      },
+      "created_at": 1794470428.38543
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "May I have your",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470428.915987
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 27.14999999999997
+          }
+        ]
+      },
+      "created_at": 1794470429.4332135
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "May I have your full name and date of birth?",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470429.92277
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470430.1257715
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "May I have your full name and date of birth?",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470430.1267722
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470429.756649
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1794470430.4056923
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_1aaa5629181c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I can look that up for you. May I have your full name and date of birth?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9936523500000001,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470426.5193694,
+          "stopped_speaking_at": 1794470429.757648,
+          "transcription_delay": 0.369124174118042,
+          "end_of_turn_delay": 0.6480443477630615,
+          "on_user_turn_completed_delay": 0.00013299999409355223
+        },
+        "created_at": 1794470430.4056923,
+        "hash": null
+      },
+      "created_at": 1794470430.4116945
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1794470430.4116945
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 2078,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 51,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470430.433694
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470431.1793308
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1794470431.354334
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 194,
+            "audio_duration": 9.33441666666667
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470431.4843338
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470431.9133766
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470432.4836962
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470433.5336735
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 29.29999999999997
+          }
+        ]
+      },
+      "created_at": 1794470434.5347996
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 34.29999999999996
+          }
+        ]
+      },
+      "created_at": 1794470435.126868
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_ca48a85e9e20",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Mason Boomgaard, and my date of birth is November 16, 2001."
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        },
+        "metrics": {
+          "started_speaking_at": 1794470431.3533347,
+          "stopped_speaking_at": 1794470435.5761955,
+          "llm_node_ttft": 0.6445094000082463,
+          "llm_node_tps": 195.89911907829458,
+          "llm_node_ttfs": 0.7735479999973904,
+          "tts_node_ttfb": 0.17303040000842884,
+          "playback_latency": 0.0,
+          "e2e_latency": 1.595686674118042,
+          "llm_metadata": {
+            "model_name": "openai/gpt-5.4-mini",
+            "model_provider": "livekit"
+          },
+          "tts_metadata": {
+            "model_name": "cartesia/sonic-3",
+            "model_provider": "livekit"
+          }
+        },
+        "created_at": 1794470430.4126964,
+        "hash": null
+      },
+      "created_at": 1794470435.5761955
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470435.577198
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 34.29999999999996
+          }
+        ]
+      },
+      "created_at": 1794470435.5831711
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 35.09999999999996
+          }
+        ]
+      },
+      "created_at": 1794470435.907273
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 35.09999999999996
+          }
+        ]
+      },
+      "created_at": 1794470436.5840588
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 36.24999999999996
+          }
+        ]
+      },
+      "created_at": 1794470437.0584657
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 36.24999999999996
+          }
+        ]
+      },
+      "created_at": 1794470437.633532
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 36.24999999999996
+          }
+        ]
+      },
+      "created_at": 1794470438.633282
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 36.24999999999996
+          }
+        ]
+      },
+      "created_at": 1794470439.6832387
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 36.24999999999996
+          }
+        ]
+      },
+      "created_at": 1794470440.6840885
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 36.24999999999996
+          }
+        ]
+      },
+      "created_at": 1794470441.733235
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 41.24999999999995
+          }
+        ]
+      },
+      "created_at": 1794470442.0542362
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 41.54999999999995
+          }
+        ]
+      },
+      "created_at": 1794470442.3582385
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 41.54999999999995
+          }
+        ]
+      },
+      "created_at": 1794470442.7331765
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 42.04999999999995
+          }
+        ]
+      },
+      "created_at": 1794470442.8563104
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 42.04999999999995
+          }
+        ]
+      },
+      "created_at": 1794470443.7837615
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 42.04999999999995
+          }
+        ]
+      },
+      "created_at": 1794470444.7844455
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1794470445.6189456
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 42.04999999999995
+          }
+        ]
+      },
+      "created_at": 1794470445.8339722
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I can",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470445.8599463
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 42.04999999999995
+          }
+        ]
+      },
+      "created_at": 1794470446.833159
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I checked your chart.",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470446.862159
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 47.04999999999994
+          }
+        ]
+      },
+      "created_at": 1794470447.8679304
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "I checked your chart.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470447.8689313
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 47.04999999999994
+          }
+        ]
+      },
+      "created_at": 1794470447.8849306
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And you do not have any",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470447.889929
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And you do not have any upcoming appointment",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470448.869673
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 47.04999999999994
+          }
+        ]
+      },
+      "created_at": 1794470448.8846734
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 48.49999999999994
+          }
+        ]
+      },
+      "created_at": 1794470449.3191853
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "And you do not have any upcoming appointments scheduled.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470449.3201835
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470449.156098
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1794470449.7201002
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 48.49999999999994
+          }
+        ]
+      },
+      "created_at": 1794470449.932125
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470450.322119
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 48.49999999999994
+          }
+        ]
+      },
+      "created_at": 1794470450.9348934
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to book a new appointment?",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470451.327897
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470451.478034
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Would you like to book a new appointment?",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470451.479032
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470451.2568913
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1794470451.905865
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_aabc9509b3c1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I checked your chart. And you do not have any upcoming appointments scheduled. Would you like to book a new appointment?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9990234333333333,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470445.6189456,
+          "stopped_speaking_at": 1794470451.2578635,
+          "transcription_delay": 0.22116851806640625,
+          "end_of_turn_delay": 0.6470024585723877,
+          "on_user_turn_completed_delay": 0.00017810000281315297
+        },
+        "created_at": 1794470451.904866,
+        "hash": null
+      },
+      "created_at": 1794470451.9118643
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1794470451.9118643
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 3183,
+            "input_cached_tokens": 0,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 73,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470451.984375
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470452.4959657
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "speaking",
+      "created_at": 1794470452.5249648
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 253,
+            "audio_duration": 13.560458333333337
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470452.9820905
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470453.163125
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470453.9831524
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470455.0328655
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 50.64999999999994
+          }
+        ]
+      },
+      "created_at": 1794470456.0331786
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 55.649999999999935
+          }
+        ]
+      },
+      "created_at": 1794470456.4711928
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_e914eef469a3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay, thanks for checking. If I find a confirmation later, how should I reach the staff?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": null,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        },
+        "metrics": {
+          "started_speaking_at": 1794470452.5239646,
+          "stopped_speaking_at": 1794470456.973077,
+          "llm_node_ttft": 0.4206162999907974,
+          "llm_node_tps": 175.04844275755121,
+          "llm_node_ttfs": 0.46948600000177976,
+          "tts_node_ttfb": 0.14796559998649172,
+          "playback_latency": 0.0,
+          "e2e_latency": 1.2661011219024658,
+          "llm_metadata": {
+            "model_name": "openai/gpt-5.4-mini",
+            "model_provider": "livekit"
+          },
+          "tts_metadata": {
+            "model_name": "cartesia/sonic-3",
+            "model_provider": "livekit"
+          }
+        },
+        "created_at": 1794470451.9128637,
+        "hash": null
+      },
+      "created_at": 1794470456.973077
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470456.9740803
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 55.649999999999935
+          }
+        ]
+      },
+      "created_at": 1794470457.0821126
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 57.04999999999993
+          }
+        ]
+      },
+      "created_at": 1794470457.8551106
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 57.04999999999993
+          }
+        ]
+      },
+      "created_at": 1794470458.085301
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 58.249999999999936
+          }
+        ]
+      },
+      "created_at": 1794470459.0549667
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 58.249999999999936
+          }
+        ]
+      },
+      "created_at": 1794470459.132968
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "listening",
+      "new_state": "speaking",
+      "created_at": 1794470459.669084
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You can",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470460.0580847
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 58.249999999999936
+          }
+        ]
+      },
+      "created_at": 1794470460.134084
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You can call Pinnacle Point",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470461.059148
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 58.249999999999936
+          }
+        ]
+      },
+      "created_at": 1794470461.1831481
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You can call Pinna Pointe Orthopedics directly if you",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470462.069199
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 58.249999999999936
+          }
+        ]
+      },
+      "created_at": 1794470462.184117
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You can call Pinna Pointe Orthopedics directly if you need to reach the staff",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470463.0712893
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 58.249999999999936
+          }
+        ]
+      },
+      "created_at": 1794470463.2342908
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 63.24999999999993
+          }
+        ]
+      },
+      "created_at": 1794470464.0762913
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "You can call Pinna Pointe Orthopedics directly if you need to reach",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470464.0762913
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "the staff or have questions about",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470464.0772526
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 63.24999999999993
+          }
+        ]
+      },
+      "created_at": 1794470464.2345803
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 64.14999999999993
+          }
+        ]
+      },
+      "created_at": 1794470464.973653
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "the staff or have questions about your appointments.",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470464.9746525
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 64.14999999999993
+          }
+        ]
+      },
+      "created_at": 1794470465.2847004
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is there anything",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470465.9734817
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 64.14999999999993
+          }
+        ]
+      },
+      "created_at": 1794470466.2850063
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is there anything else I can help you with right",
+      "is_final": false,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470466.9834812
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 66.49999999999993
+          }
+        ]
+      },
+      "created_at": 1794470467.33247
+    },
+    {
+      "type": "user_input_transcribed",
+      "transcript": "Is there anything else I can help you with right now?",
+      "is_final": true,
+      "item_id": null,
+      "speaker_id": null,
+      "language": "en",
+      "created_at": 1794470467.33247
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 66.49999999999993
+          }
+        ]
+      },
+      "created_at": 1794470467.3354416
+    },
+    {
+      "type": "user_state_changed",
+      "old_state": "speaking",
+      "new_state": "listening",
+      "created_at": 1794470467.1071205
+    },
+    {
+      "type": "speech_created",
+      "user_initiated": true,
+      "source": "generate_reply",
+      "created_at": 1794470467.754605
+    },
+    {
+      "type": "conversation_item_added",
+      "item": {
+        "id": "item_ce2cba0a692b",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "You can call Pinna Pointe Orthopedics directly if you need to reach the staff or have questions about your appointments. Is there anything else I can help you with right now?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99967448,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470459.669084,
+          "stopped_speaking_at": 1794470467.1071205,
+          "transcription_delay": 0.2263188362121582,
+          "end_of_turn_delay": 0.6464836597442627,
+          "on_user_turn_completed_delay": 0.00017549999756738544
+        },
+        "created_at": 1794470467.7536042,
+        "hash": null
+      },
+      "created_at": 1794470467.761605
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "listening",
+      "new_state": "thinking",
+      "created_at": 1794470467.7626047
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 4341,
+            "input_cached_tokens": 1024,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 96,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 66.49999999999993
+          }
+        ]
+      },
+      "created_at": 1794470468.334022
+    },
+    {
+      "type": "tool_execution_updated",
+      "update": {
+        "type": "tool_call_started",
+        "function_call": {
+          "id": "item_d967dc58f87a/fnc_0",
+          "type": "function_call",
+          "call_id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+          "arguments": "{\"outcome\":\"No upcoming appointment was found; caller asked how to reach staff if a confirmation is found later.\"}",
+          "name": "finish_call",
+          "created_at": 1794470468.5083604,
+          "extra": {
+            "livekit": {
+              "inference_deployment": "standard_openai",
+              "inference_tier_requested": "standard",
+              "inference_tier_granted": "standard",
+              "inference_tier_billed": "standard"
+            }
+          },
+          "group_id": null
+        }
+      },
+      "created_at": 1794470468.5093617
+    },
+    {
+      "type": "tool_execution_updated",
+      "update": {
+        "type": "tool_call_ended",
+        "id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+        "call_id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+        "message": "The call will end after your current farewell is heard. Do not speak again.",
+        "status": "done"
+      },
+      "created_at": 1794470468.511362
+    },
+    {
+      "type": "session_usage_updated",
+      "usage": {
+        "model_usage": [
+          {
+            "type": "llm_usage",
+            "provider": "livekit",
+            "model": "openai/gpt-5.4-mini",
+            "input_tokens": 5565,
+            "input_cached_tokens": 2048,
+            "input_cache_creation_tokens": 0,
+            "input_audio_tokens": 0,
+            "input_cached_audio_tokens": 0,
+            "input_text_tokens": 0,
+            "input_cached_text_tokens": 0,
+            "input_image_tokens": 0,
+            "input_cached_image_tokens": 0,
+            "output_tokens": 132,
+            "output_audio_tokens": 0,
+            "output_text_tokens": 0,
+            "output_reasoning_tokens": 0,
+            "session_duration": 0.0
+          },
+          {
+            "type": "tts_usage",
+            "provider": "livekit",
+            "model": "cartesia/sonic-3",
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "characters_count": 341,
+            "audio_duration": 18.018708333333336
+          },
+          {
+            "type": "stt_usage",
+            "provider": "livekit",
+            "model": "deepgram/nova-3",
+            "input_tokens": 0,
+            "input_audio_tokens": 0,
+            "output_tokens": 0,
+            "audio_duration": 66.49999999999993
+          }
+        ]
+      },
+      "created_at": 1794470468.5233626
+    },
+    {
+      "type": "function_tools_executed",
+      "function_calls": [
+        {
+          "id": "item_d967dc58f87a/fnc_0",
+          "type": "function_call",
+          "call_id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+          "arguments": "{\"outcome\":\"No upcoming appointment was found; caller asked how to reach staff if a confirmation is found later.\"}",
+          "name": "finish_call",
+          "created_at": 1794470468.5083604,
+          "extra": {
+            "livekit": {
+              "inference_deployment": "standard_openai",
+              "inference_tier_requested": "standard",
+              "inference_tier_granted": "standard",
+              "inference_tier_billed": "standard"
+            }
+          },
+          "group_id": null
+        }
+      ],
+      "function_call_outputs": [
+        {
+          "id": "item_175fdd722040",
+          "type": "function_call_output",
+          "name": "finish_call",
+          "call_id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+          "output": "The call will end after your current farewell is heard. Do not speak again.",
+          "is_error": false,
+          "created_at": 1794470468.5103612,
+          "reply_required": true
+        }
+      ],
+      "created_at": 1794470468.5243626
+    },
+    {
+      "type": "agent_state_changed",
+      "old_state": "thinking",
+      "new_state": "listening",
+      "created_at": 1794470468.5343919
+    },
+    {
+      "type": "close",
+      "error": null,
+      "reason": "user_initiated",
+      "created_at": 1794470470.5353901
+    }
+  ],
+  "audio_recording_path": "C:\\Users\\mason\\AppData\\Local\\Temp\\tmp3ztgpfwi\\audio.ogg",
+  "audio_recording_started_at": 1794470400.1328359,
+  "options": {
+    "allow_interruptions": true,
+    "discard_audio_if_uninterruptible": false,
+    "min_interruption_duration": 0.5,
+    "min_interruption_words": 2,
+    "min_endpointing_delay": 0.65,
+    "max_endpointing_delay": 3.0,
+    "max_tool_steps": 3,
+    "user_away_timeout": null,
+    "min_consecutive_speech_delay": 0.0,
+    "preemptive_generation": {
+      "enabled": false,
+      "preemptive_tts": false,
+      "max_speech_duration": 10.0,
+      "max_retries": 3
+    },
+    "recording_options": {
+      "audio": true,
+      "traces": true,
+      "logs": true,
+      "transcript": true,
+      "redaction": false
+    }
+  },
+  "chat_history": {
+    "items": [
+      {
+        "id": "item_7d5f80973594",
+        "type": "agent_handoff",
+        "new_agent_id": "patient",
+        "created_at": 1794470400.1328359
+      },
+      {
+        "id": "item_a7c492ee8fe9",
+        "type": "agent_config_update",
+        "instructions": "You are a patient calling a medical office. You are the CALLER, not the\nreceptionist. The voice you hear is the receptionist under test. Stay in this role.\n\nSpeak natural conversational English. Usually one short sentence, occasionally two.\nAnswer the receptionist's actual question before asking your next question. Give personal\ndetails only when requested. Never read a whole test script or numbered list aloud.\nDo not narrate instructions, analysis, tool calls, severity, timestamps, or test criteria.\nDo not say you are evaluating the receptionist. If directly asked whether you are automated,\nanswer truthfully that you are an automated test caller using a synthetic patient identity.\n\nYour synthetic patient details: {\"first_name\": \"Mason\", \"last_name\": \"Boomgaard\", \"date_of_birth\": \"2001-11-16\", \"email\": \"masonboom@gmail.com\", \"visit_reason\": \"A non-urgent orthopedic consultation for mild knee discomfort after exercise.\", \"symptom_duration\": \"About two weeks; no recent injury.\", \"insurance\": \"Blue Cross Blue Shield; exact plan not known.\", \"notes\": \"Synthetic test identity. Match these values to the assessment test account before calling. The callback number is injected from CALLER_ID.\", \"callback_number\": \"+15025032611\"}\nPractice facts: {\"name\": \"Pivot Point Orthopedics\", \"address\": null, \"hours\": null, \"accepted_insurance\": null}\nVerified contextual facts: [{\"fact\": \"The assessment setup URL opens a Pivot Point Orthopedics intake form asking for first name, last name, email, phone number and date of birth.\", \"source\": \"https://pivotpointortho.com/intake?utm_source=athena\", \"scope\": \"Observed signup page only; no office hours, address, patient record or successful registration verified.\"}]\nCurrent practice-local date/time: 2026-11-12T00:00:00.113832-08:00 (America/Los_Angeles).\nNext-week dates: {\"monday\": \"2026-11-16\", \"tuesday\": \"2026-11-17\", \"thursday\": \"2026-11-19\", \"sunday\": \"2026-11-22\"}. Say calendar dates naturally, with month and day.\nDo not invent a patient record, existing appointment, practice location, hours, insurance\ncoverage, or a completed action. Unknown practice facts must be asked about. If lookup\nfails, ask what information is needed or ask for a staff callback, then close gracefully.\nUse only your callback number above; do not invent any other phone number or email recipient.\n\nScenario: Cancel an appointment without a known date\nYour goal: Try the cancellation flow without inventing an appointment that does not exist.\nOpening intent (use your own words AFTER their greeting): I think I have an upcoming appointment, but I can't remember the date. Could you help me check?\nConversation plan: [\"Provide your actual synthetic test identity when asked.\", \"If an appointment is found, ask to cancel that specific appointment, then confirm which date was canceled.\", \"If none is found, accept that result and ask how to reach staff if you locate a confirmation later.\", \"Do not assert that a booking exists when lookup says otherwise.\"]\nWhat to probe: [\"Identity verification\", \"No fabricated appointment or cancellation\", \"Clear no-match handling\"]\n\nRespond to the greeting rather than starting with an unsolicited introduction. Let the\nreceptionist finish; only the explicit interruption scenario may deliberately barge in.\nIf the receptionist says it will check something, wait instead of repeating yourself.\nIf it offers alternatives, choose a reasonable one consistent with this scenario.\nSeek a clear resolution: confirm the date/time/action or ask what happens next. Do not\ndeclare an appointment/refill completed unless the receptionist actually confirms it.\nDo not prolong a resolved conversation just to reach a duration target. Once the goal\nand necessary follow-up are addressed, say a brief thanks/goodbye, then use finish_call.\nIf the receptionist has already said goodbye and no question remains, finish politely.\nIf asked to make real purchases or contact another person, decline and finish the call.\nIf stuck after two clarifications, ask for the appropriate staff follow-up and finish.\n",
+        "tools_added": [
+          "finish_call"
+        ],
+        "created_at": 1794470400.1388345
+      },
+      {
+        "id": "item_9058a825d163",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "This call may be recorded for quality and training purposes."
+        ],
+        "interrupted": false,
+        "transcript_confidence": 1.0,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470405.920184,
+          "stopped_speaking_at": 1794470411.6599383,
+          "transcription_delay": 0.0,
+          "end_of_turn_delay": 0.6449980735778809,
+          "on_user_turn_completed_delay": 0.00014940000255592167
+        },
+        "created_at": 1794470412.3049364
+      },
+      {
+        "id": "item_428ae931467d",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9855957033333334,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470412.3689373,
+          "stopped_speaking_at": 1794470417.4575644,
+          "transcription_delay": 0.3169271945953369,
+          "end_of_turn_delay": 0.6499998569488525,
+          "on_user_turn_completed_delay": 0.00013169999874662608
+        },
+        "created_at": 1794470418.1075642
+      },
+      {
+        "id": "item_3b6fff78abfa",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Hi, I think I have an upcoming appointment, but I can’t remember the date. Could you help me check?"
+        ],
+        "interrupted": false,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        },
+        "metrics": {
+          "started_speaking_at": 1794470418.7977214,
+          "stopped_speaking_at": 1794470423.976922,
+          "llm_node_ttft": 0.45588240001234226,
+          "llm_node_tps": 276.0888637861269,
+          "llm_node_ttfs": 0.5396749000065029,
+          "tts_node_ttfb": 0.14898399999947287,
+          "playback_latency": 0.0,
+          "e2e_latency": 1.3401570320129395,
+          "llm_metadata": {
+            "model_name": "openai/gpt-5.4-mini",
+            "model_provider": "livekit"
+          },
+          "tts_metadata": {
+            "model_name": "cartesia/sonic-3",
+            "model_provider": "livekit"
+          }
+        },
+        "created_at": 1794470418.112564
+      },
+      {
+        "id": "item_1aaa5629181c",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I can look that up for you. May I have your full name and date of birth?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9936523500000001,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470426.5193694,
+          "stopped_speaking_at": 1794470429.757648,
+          "transcription_delay": 0.369124174118042,
+          "end_of_turn_delay": 0.6480443477630615,
+          "on_user_turn_completed_delay": 0.00013299999409355223
+        },
+        "created_at": 1794470430.4056923
+      },
+      {
+        "id": "item_ca48a85e9e20",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Mason Boomgaard, and my date of birth is November 16, 2001."
+        ],
+        "interrupted": false,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        },
+        "metrics": {
+          "started_speaking_at": 1794470431.3533347,
+          "stopped_speaking_at": 1794470435.5761955,
+          "llm_node_ttft": 0.6445094000082463,
+          "llm_node_tps": 195.89911907829458,
+          "llm_node_ttfs": 0.7735479999973904,
+          "tts_node_ttfb": 0.17303040000842884,
+          "playback_latency": 0.0,
+          "e2e_latency": 1.595686674118042,
+          "llm_metadata": {
+            "model_name": "openai/gpt-5.4-mini",
+            "model_provider": "livekit"
+          },
+          "tts_metadata": {
+            "model_name": "cartesia/sonic-3",
+            "model_provider": "livekit"
+          }
+        },
+        "created_at": 1794470430.4126964
+      },
+      {
+        "id": "item_aabc9509b3c1",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "I checked your chart. And you do not have any upcoming appointments scheduled. Would you like to book a new appointment?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.9990234333333333,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470445.6189456,
+          "stopped_speaking_at": 1794470451.2578635,
+          "transcription_delay": 0.22116851806640625,
+          "end_of_turn_delay": 0.6470024585723877,
+          "on_user_turn_completed_delay": 0.00017810000281315297
+        },
+        "created_at": 1794470451.904866
+      },
+      {
+        "id": "item_e914eef469a3",
+        "type": "message",
+        "role": "assistant",
+        "content": [
+          "Okay, thanks for checking. If I find a confirmation later, how should I reach the staff?"
+        ],
+        "interrupted": false,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        },
+        "metrics": {
+          "started_speaking_at": 1794470452.5239646,
+          "stopped_speaking_at": 1794470456.973077,
+          "llm_node_ttft": 0.4206162999907974,
+          "llm_node_tps": 175.04844275755121,
+          "llm_node_ttfs": 0.46948600000177976,
+          "tts_node_ttfb": 0.14796559998649172,
+          "playback_latency": 0.0,
+          "e2e_latency": 1.2661011219024658,
+          "llm_metadata": {
+            "model_name": "openai/gpt-5.4-mini",
+            "model_provider": "livekit"
+          },
+          "tts_metadata": {
+            "model_name": "cartesia/sonic-3",
+            "model_provider": "livekit"
+          }
+        },
+        "created_at": 1794470451.9128637
+      },
+      {
+        "id": "item_ce2cba0a692b",
+        "type": "message",
+        "role": "user",
+        "content": [
+          "You can call Pinna Pointe Orthopedics directly if you need to reach the staff or have questions about your appointments. Is there anything else I can help you with right now?"
+        ],
+        "interrupted": false,
+        "transcript_confidence": 0.99967448,
+        "extra": {},
+        "metrics": {
+          "stt_metadata": {
+            "model_name": "deepgram/nova-3",
+            "model_provider": "livekit"
+          },
+          "started_speaking_at": 1794470459.669084,
+          "stopped_speaking_at": 1794470467.1071205,
+          "transcription_delay": 0.2263188362121582,
+          "end_of_turn_delay": 0.6464836597442627,
+          "on_user_turn_completed_delay": 0.00017549999756738544
+        },
+        "created_at": 1794470467.7536042
+      },
+      {
+        "id": "item_d967dc58f87a/fnc_0",
+        "type": "function_call",
+        "call_id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+        "arguments": "{\"outcome\":\"No upcoming appointment was found; caller asked how to reach staff if a confirmation is found later.\"}",
+        "name": "finish_call",
+        "created_at": 1794470468.5083604,
+        "extra": {
+          "livekit": {
+            "inference_deployment": "standard_openai",
+            "inference_tier_requested": "standard",
+            "inference_tier_granted": "standard",
+            "inference_tier_billed": "standard"
+          }
+        }
+      },
+      {
+        "id": "item_175fdd722040",
+        "type": "function_call_output",
+        "name": "finish_call",
+        "call_id": "call_RtA3zkCZYnYkz93XdL6SYPwg",
+        "output": "The call will end after your current farewell is heard. Do not speak again.",
+        "is_error": false,
+        "created_at": 1794470468.5103612,
+        "reply_required": true
+      }
+    ]
+  },
+  "timestamp": 1794470470.6604197,
+  "usage": [
+    {
+      "type": "llm_usage",
+      "provider": "livekit",
+      "model": "openai/gpt-5.4-mini",
+      "input_tokens": 5565,
+      "input_cached_tokens": 2048,
+      "output_tokens": 132
+    },
+    {
+      "type": "tts_usage",
+      "provider": "livekit",
+      "model": "cartesia/sonic-3",
+      "characters_count": 341,
+      "audio_duration": 18.018708333333336
+    },
+    {
+      "type": "stt_usage",
+      "provider": "livekit",
+      "model": "deepgram/nova-3",
+      "audio_duration": 66.49999999999993
+    }
+  ],
+  "sdk_version": "1.8.11",
+  "agent_name": "patient-voice-lab",
+  "tags": [],
+  "duration_ms": 70527,
+  "user_turns": 5,
+  "errors": {
+    "llm": 0,
+    "stt": 0,
+    "tts": 0,
+    "realtime": 0,
+    "interruption": 0
+  },
+  "close_reason": "CR_USER_INITIATED"
+}

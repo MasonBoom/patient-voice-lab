@@ -1,0 +1,13 @@
+PATIENT SIMULATOR CALL TRANSCRIPT
+Time offsets refer to recording.ogg; estimated offsets are marked ~.
+receptionist = system under test; patient = our simulator.
+ASR is not ground truth. Check the recording before confirming a finding.
+
+[00:05] turn-001 RECEPTIONIST: This call may be recorded for quality and training purposes.
+[00:12] turn-002 RECEPTIONIST: Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?
+[00:19] turn-003 PATIENT: Hi, where is your office located? I’m trying to plan my first visit.
+[00:25] turn-004 RECEPTIONIST: Our office is at one two three four Recovery Way, suite two hundred, Austin. We're in the Recovery Plaza Medical Building, Is there anything else I can help you with as you plan your visit?
+[00:37] turn-005 PATIENT: Thanks. And could you tell me about parking, and how early a new patient should arrive?
+[00:44] turn-006 RECEPTIONIST: Free patient parking is available in the surface lot right in front of the building. For your first visit, it's best to arrive about fifteen minutes early to complete any paperwork. Let me know if you have any other questions.
+[00:58] turn-007 PATIENT: Great, so that’s 1234 Recovery Way, Suite 200, Austin, in the Recovery Plaza Medical Building, with parking in the front lot, and I should arrive 15 minutes early. Thanks for your help.
+[01:12] turn-008 RECEPTIONIST: You're welcome. If you need anything else, give us a call. Have a great day.

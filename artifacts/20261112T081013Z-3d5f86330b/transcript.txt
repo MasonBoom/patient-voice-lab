@@ -1,0 +1,16 @@
+PATIENT SIMULATOR CALL TRANSCRIPT
+Time offsets refer to recording.ogg; estimated offsets are marked ~.
+receptionist = system under test; patient = our simulator.
+ASR is not ground truth. Check the recording before confirming a finding.
+
+[00:05] turn-001 RECEPTIONIST: This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. May I help you today?
+[00:19] turn-002 PATIENT: Hi, I’d like to ask about requesting a refill of my regular medication.
+[00:26] turn-003 RECEPTIONIST: I see you're calling from the number we have on file. Am I speaking with Mason?
+[00:34] turn-004 PATIENT: Yes, this is Mason.
+[00:39] turn-005 RECEPTIONIST: Please provide your date of birth.
+[00:41] turn-006 PATIENT: November 16, 2001.
+[00:53] turn-007 RECEPTIONIST: I don't see any medications on your chart that I can refill right now. If you'd like to speak with our support team about this, just let me know.
+[01:01] turn-008 PATIENT: Okay, thanks. What details should I have ready if I want to request a refill, and how do I provide them to your team?
+[01:09] turn-009 RECEPTIONIST: You need a refill, it helps to have the medication name, dose, and your preferred pharmacy ready. You can request a refill by calling us and I or our support team will guide you through the process.
+[01:20] turn-010 PATIENT: Got it. Thanks for explaining that. Is there anything actually submitted on my behalf right now, or should I call back with those details?
+[01:31] turn-011 RECEPTIONIST: Nothing has been submitted yet. Since there are no medications listed on your chart. If you get a new prescription or need a refill in the future, just call back with the details, and we'll help you right away.

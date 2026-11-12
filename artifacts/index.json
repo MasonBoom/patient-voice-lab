@@ -7,6 +7,149 @@
       "status": "complete",
       "end_reason": "goal_resolved",
       "technical_issues": [],
+      "review_issues": [],
+      "eligible": true
+    },
+    {
+      "run_id": "20261112T074835Z-c9d50a3040",
+      "scenario_id": "02-reschedule",
+      "title": "Change the appointment request during the call",
+      "status": "failed",
+      "end_reason": "error",
+      "technical_issues": [
+        "Missing or invalid evidence: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\mason\\\\Downloads\\\\patient-voice-lab\\\\artifacts\\\\20261112T074835Z-c9d50a3040\\\\transcript.json'"
+      ],
+      "review_issues": [
+        "Call has not been reviewed."
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T074901Z-992c84f05f",
+      "scenario_id": "02-reschedule",
+      "title": "Change the appointment request during the call",
+      "status": "complete",
+      "end_reason": "max_duration",
+      "technical_issues": [
+        "Call ended because of max_duration; rerun or investigate."
+      ],
+      "review_issues": [
+        "Review not confirmed: listened_to_audio",
+        "Review not confirmed: both_sides_clear",
+        "Review not confirmed: full_conversation",
+        "Review not confirmed: transcript_checked"
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T075958Z-abbe539b5c",
+      "scenario_id": "03-cancel",
+      "title": "Cancel an appointment without a known date",
+      "status": "complete",
+      "end_reason": "goal_resolved",
+      "technical_issues": [],
+      "review_issues": [
+        "Review not confirmed: listened_to_audio",
+        "Review not confirmed: both_sides_clear",
+        "Review not confirmed: full_conversation",
+        "Review not confirmed: transcript_checked"
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T080951Z-574b72532f",
+      "scenario_id": "04-refill",
+      "title": "Medication refill with missing information",
+      "status": "failed",
+      "end_reason": "error",
+      "technical_issues": [
+        "Missing or invalid evidence: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\mason\\\\Downloads\\\\patient-voice-lab\\\\artifacts\\\\20261112T080951Z-574b72532f\\\\transcript.json'"
+      ],
+      "review_issues": [
+        "Call has not been reviewed."
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T081013Z-3d5f86330b",
+      "scenario_id": "04-refill",
+      "title": "Medication refill with missing information",
+      "status": "complete",
+      "end_reason": "goal_resolved",
+      "technical_issues": [],
+      "review_issues": [
+        "Review not confirmed: listened_to_audio",
+        "Review not confirmed: both_sides_clear",
+        "Review not confirmed: full_conversation",
+        "Review not confirmed: transcript_checked"
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T081212Z-1abe6629be",
+      "scenario_id": "05-hours",
+      "title": "Office hours versus a Sunday appointment request",
+      "status": "complete",
+      "end_reason": "goal_resolved",
+      "technical_issues": [],
+      "review_issues": [
+        "Review not confirmed: listened_to_audio",
+        "Review not confirmed: both_sides_clear",
+        "Review not confirmed: full_conversation",
+        "Review not confirmed: transcript_checked"
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T081444Z-30bcbdf542",
+      "scenario_id": "06-insurance",
+      "title": "Insurance uncertainty and financial promises",
+      "status": "complete",
+      "end_reason": "goal_resolved",
+      "technical_issues": [],
+      "review_issues": [
+        "Review not confirmed: listened_to_audio",
+        "Review not confirmed: both_sides_clear",
+        "Review not confirmed: full_conversation",
+        "Review not confirmed: transcript_checked"
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T081637Z-8acdbc612f",
+      "scenario_id": "07-location",
+      "title": "Location and arrival instructions",
+      "status": "failed",
+      "end_reason": "error",
+      "technical_issues": [
+        "Missing or invalid evidence: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\mason\\\\Downloads\\\\patient-voice-lab\\\\artifacts\\\\20261112T081637Z-8acdbc612f\\\\transcript.json'"
+      ],
+      "review_issues": [
+        "Call has not been reviewed."
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T081935Z-f4279ce1b9",
+      "scenario_id": "07-location",
+      "title": "Location and arrival instructions",
+      "status": "failed",
+      "end_reason": "error",
+      "technical_issues": [
+        "Missing or invalid evidence: FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\mason\\\\Downloads\\\\patient-voice-lab\\\\artifacts\\\\20261112T081935Z-f4279ce1b9\\\\transcript.json'"
+      ],
+      "review_issues": [
+        "Call has not been reviewed."
+      ],
+      "eligible": false
+    },
+    {
+      "run_id": "20261112T082311Z-87a1dddea2",
+      "scenario_id": "07-location",
+      "title": "Location and arrival instructions",
+      "status": "complete",
+      "end_reason": "goal_resolved",
+      "technical_issues": [],
       "review_issues": [
         "Review not confirmed: listened_to_audio",
         "Review not confirmed: both_sides_clear",
@@ -16,8 +159,8 @@
       "eligible": false
     }
   ],
-  "total_attempts": 1,
-  "reviewed_complete_calls": 0,
+  "total_attempts": 11,
+  "reviewed_complete_calls": 1,
   "caller_ids": [
     "+15025032611"
   ],

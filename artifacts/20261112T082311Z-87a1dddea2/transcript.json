@@ -1,0 +1,79 @@
+{
+  "source": "LiveKit committed session history",
+  "recording_epoch": 1794471791.788596,
+  "note": "ASR and spoken-text alignment may contain errors. Verify quotes against audio.",
+  "turns": [
+    {
+      "id": "turn-001",
+      "speaker": "receptionist",
+      "text": "This call may be recorded for quality and training purposes.",
+      "start_seconds": 5.856,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_fc60f989e330"
+    },
+    {
+      "id": "turn-002",
+      "speaker": "receptionist",
+      "text": "Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?",
+      "start_seconds": 12.256,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_39a3cb89641e"
+    },
+    {
+      "id": "turn-003",
+      "speaker": "patient",
+      "text": "Hi, where is your office located? I’m trying to plan my first visit.",
+      "start_seconds": 19.003,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_b3352b8d4212"
+    },
+    {
+      "id": "turn-004",
+      "speaker": "receptionist",
+      "text": "Our office is at one two three four Recovery Way, suite two hundred, Austin. We're in the Recovery Plaza Medical Building, Is there anything else I can help you with as you plan your visit?",
+      "start_seconds": 25.407,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_383e1d46a4aa"
+    },
+    {
+      "id": "turn-005",
+      "speaker": "patient",
+      "text": "Thanks. And could you tell me about parking, and how early a new patient should arrive?",
+      "start_seconds": 37.785,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_412f15e29a72"
+    },
+    {
+      "id": "turn-006",
+      "speaker": "receptionist",
+      "text": "Free patient parking is available in the surface lot right in front of the building. For your first visit, it's best to arrive about fifteen minutes early to complete any paperwork. Let me know if you have any other questions.",
+      "start_seconds": 44.21,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_6f856367cd17"
+    },
+    {
+      "id": "turn-007",
+      "speaker": "patient",
+      "text": "Great, so that’s 1234 Recovery Way, Suite 200, Austin, in the Recovery Plaza Medical Building, with parking in the front lot, and I should arrive 15 minutes early. Thanks for your help.",
+      "start_seconds": 58.178,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_80c5bef30956"
+    },
+    {
+      "id": "turn-008",
+      "speaker": "receptionist",
+      "text": "You're welcome. If you need anything else, give us a call. Have a great day.",
+      "start_seconds": 72.007,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_3b3e5cfdaac8"
+    }
+  ]
+}

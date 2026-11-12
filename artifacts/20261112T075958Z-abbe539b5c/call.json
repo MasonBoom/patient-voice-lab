@@ -1,0 +1,34 @@
+{
+  "run_id": "20261112T075958Z-abbe539b5c",
+  "scenario": {
+    "id": "03-cancel",
+    "title": "Cancel an appointment without a known date",
+    "opening": "I think I have an upcoming appointment, but I can't remember the date. Could you help me check?",
+    "goal": "Try the cancellation flow without inventing an appointment that does not exist.",
+    "steps": [
+      "Provide your actual synthetic test identity when asked.",
+      "If an appointment is found, ask to cancel that specific appointment, then confirm which date was canceled.",
+      "If none is found, accept that result and ask how to reach staff if you locate a confirmation later.",
+      "Do not assert that a booking exists when lookup says otherwise."
+    ],
+    "probes": [
+      "Identity verification",
+      "No fabricated appointment or cancellation",
+      "Clear no-match handling"
+    ]
+  },
+  "caller_id": "+15025032611",
+  "destination": "+18054398008",
+  "room": "patient-test-20261112T075958Z-abbe539b5c",
+  "created_at": 1794470398.9311934,
+  "answered_at": 1794470405.5221827,
+  "models": {
+    "stt": "deepgram/nova-3",
+    "llm": "openai/gpt-5.4-mini",
+    "tts": "cartesia/sonic-3"
+  },
+  "turn_detection": "semantic",
+  "sdk_version": "1.8.11",
+  "sip_call_id": "SCL_EpXGjKQcWGuD",
+  "sip_participant_id": "PA_6md8viDGeNf5"
+}

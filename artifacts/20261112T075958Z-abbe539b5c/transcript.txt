@@ -1,0 +1,13 @@
+PATIENT SIMULATOR CALL TRANSCRIPT
+Time offsets refer to recording.ogg; estimated offsets are marked ~.
+receptionist = system under test; patient = our simulator.
+ASR is not ground truth. Check the recording before confirming a finding.
+
+[00:05] turn-001 RECEPTIONIST: This call may be recorded for quality and training purposes.
+[00:12] turn-002 RECEPTIONIST: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[00:18] turn-003 PATIENT: Hi, I think I have an upcoming appointment, but I can’t remember the date. Could you help me check?
+[00:26] turn-004 RECEPTIONIST: I can look that up for you. May I have your full name and date of birth?
+[00:31] turn-005 PATIENT: Mason Boomgaard, and my date of birth is November 16, 2001.
+[00:45] turn-006 RECEPTIONIST: I checked your chart. And you do not have any upcoming appointments scheduled. Would you like to book a new appointment?
+[00:52] turn-007 PATIENT: Okay, thanks for checking. If I find a confirmation later, how should I reach the staff?
+[00:59] turn-008 RECEPTIONIST: You can call Pinna Pointe Orthopedics directly if you need to reach the staff or have questions about your appointments. Is there anything else I can help you with right now?

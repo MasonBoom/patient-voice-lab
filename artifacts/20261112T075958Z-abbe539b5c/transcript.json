@@ -1,0 +1,79 @@
+{
+  "source": "LiveKit committed session history",
+  "recording_epoch": 1794470400.1328359,
+  "note": "ASR and spoken-text alignment may contain errors. Verify quotes against audio.",
+  "turns": [
+    {
+      "id": "turn-001",
+      "speaker": "receptionist",
+      "text": "This call may be recorded for quality and training purposes.",
+      "start_seconds": 5.787,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_9058a825d163"
+    },
+    {
+      "id": "turn-002",
+      "speaker": "receptionist",
+      "text": "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?",
+      "start_seconds": 12.236,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_428ae931467d"
+    },
+    {
+      "id": "turn-003",
+      "speaker": "patient",
+      "text": "Hi, I think I have an upcoming appointment, but I can’t remember the date. Could you help me check?",
+      "start_seconds": 18.665,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_3b6fff78abfa"
+    },
+    {
+      "id": "turn-004",
+      "speaker": "receptionist",
+      "text": "I can look that up for you. May I have your full name and date of birth?",
+      "start_seconds": 26.387,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_1aaa5629181c"
+    },
+    {
+      "id": "turn-005",
+      "speaker": "patient",
+      "text": "Mason Boomgaard, and my date of birth is November 16, 2001.",
+      "start_seconds": 31.22,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_ca48a85e9e20"
+    },
+    {
+      "id": "turn-006",
+      "speaker": "receptionist",
+      "text": "I checked your chart. And you do not have any upcoming appointments scheduled. Would you like to book a new appointment?",
+      "start_seconds": 45.486,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_aabc9509b3c1"
+    },
+    {
+      "id": "turn-007",
+      "speaker": "patient",
+      "text": "Okay, thanks for checking. If I find a confirmation later, how should I reach the staff?",
+      "start_seconds": 52.391,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_e914eef469a3"
+    },
+    {
+      "id": "turn-008",
+      "speaker": "receptionist",
+      "text": "You can call Pinna Pointe Orthopedics directly if you need to reach the staff or have questions about your appointments. Is there anything else I can help you with right now?",
+      "start_seconds": 59.536,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_ce2cba0a692b"
+    }
+  ]
+}
