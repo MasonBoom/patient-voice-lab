@@ -1,0 +1,1 @@
+{"summary":"The conversation completed a scheduling flow and confirmed a Tuesday afternoon appointment, with no evidence-backed receptionist defect requiring escalation.","findings":[]}
