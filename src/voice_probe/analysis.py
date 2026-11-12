@@ -51,7 +51,11 @@ def validate_analysis(payload: dict, turns: list[dict]) -> dict:
         ):
             raise ValueError("A finding is missing a required text field.")
         ids = finding.get("turn_ids")
-        if not isinstance(ids, list) or not ids or any(i not in lookup for i in ids):
+        if (
+            not isinstance(ids, list)
+            or not ids
+            or any(not isinstance(i, str) or i not in lookup for i in ids)
+        ):
             raise ValueError("A finding cited a missing or invalid transcript turn.")
         receptionist_turns = [lookup[i] for i in ids if lookup[i]["speaker"] == "receptionist"]
         if not any(finding["quote"] in turn["text"] for turn in receptionist_turns):
@@ -90,19 +94,43 @@ async def analyze_call(directory: Path, settings: Settings) -> dict:
         extra_kwargs={"max_completion_tokens": 2500},
     )
     try:
-        chunks = []
-        async with model.chat(chat_ctx=context) as stream:
-            async for chunk in stream:
-                if chunk.delta and chunk.delta.content:
-                    chunks.append(chunk.delta.content)
-        raw = "".join(chunks).strip()
-        (directory / "analysis-raw.txt").write_text(raw, "utf-8")
-        if raw.startswith("```"):
-            raw = raw.split("\n", 1)[1].rsplit("```", 1)[0].strip()
-        result = validate_analysis(json.loads(raw), transcript["turns"])
-        result["source"] = "Model-suggested candidates; verify against the recording."
-        write_json(directory / "analysis.json", result)
-        return result
+        for attempt in range(1, 4):
+            chunks = []
+            async with model.chat(chat_ctx=context) as stream:
+                async for chunk in stream:
+                    if chunk.delta and chunk.delta.content:
+                        chunks.append(chunk.delta.content)
+            raw = "".join(chunks).strip()
+            (directory / "analysis-raw.txt").write_text(raw, "utf-8")
+            (directory / f"analysis-raw-attempt-{attempt}.txt").write_text(raw, "utf-8")
+            try:
+                parsed = raw
+                if parsed.startswith("```"):
+                    parsed = parsed.split("\n", 1)[1].rsplit("```", 1)[0].strip()
+                result = validate_analysis(json.loads(parsed), transcript["turns"])
+            except ValueError as error:
+                if attempt == 3:
+                    raise ValueError(
+                        f"Analysis failed validation after {attempt} attempts: {error} "
+                        "Raw responses saved; no analysis was accepted."
+                    ) from error
+                context.add_message(role="assistant", content=raw)
+                context.add_message(
+                    role="user",
+                    content=(
+                        f"Your JSON failed validation: {error}\n"
+                        "Return the entire corrected JSON object. Copy each quote verbatim "
+                        "as one contiguous substring of a cited receptionist turn, preserving "
+                        "punctuation, case, and whitespace. Do not combine quotes across turns "
+                        "or paraphrase. Remove unsupported findings. The original transcript "
+                        "remains the only source of quotations."
+                    ),
+                )
+                continue
+            result["source"] = "Model-suggested candidates; verify against the recording."
+            write_json(directory / "analysis.json", result)
+            return result
+        raise AssertionError("Analysis retry loop ended unexpectedly.")
     finally:
         await model.aclose()
 
