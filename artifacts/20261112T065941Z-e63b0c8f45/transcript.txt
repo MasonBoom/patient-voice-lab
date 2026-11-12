@@ -1,0 +1,22 @@
+PATIENT SIMULATOR CALL TRANSCRIPT
+Time offsets refer to recording.ogg; estimated offsets are marked ~.
+receptionist = system under test; patient = our simulator.
+ASR is not ground truth. Check the recording before confirming a finding.
+
+[00:05] turn-001 RECEPTIONIST: This call may be recorded for quality and training purposes.
+[00:12] turn-002 PATIENT [interrupted]: Hi, I’d like to schedule a routine
+[00:13] turn-003 RECEPTIONIST: Thank you for
+[00:15] turn-004 PATIENT: I’d like to schedule a routine appointment for next week, preferably next Tuesday after 2 pm.
+[00:24] turn-005 RECEPTIONIST: I can help with that. Before we get started, would you like to create a demo patient profile? I just need your first and last name.
+[00:32] turn-006 PATIENT: Yes — Mason Boomgaard.
+[00:43] turn-007 RECEPTIONIST: Your patient profile is set up. And your date of birth is July fourth two thousand for demo purposes. How could I go for you today?
+[00:53] turn-008 PATIENT: I’m calling for a routine orthopedic visit for mild knee discomfort after exercise.
+[01:01] turn-009 RECEPTIONIST: To confirm, you'd like to book a general office visit for a routine orthopedic checkup about your knee discomfort. Is that right?
+[01:09] turn-010 PATIENT: Yes, that’s right.
+[01:15] turn-011 RECEPTIONIST: There are openings next Tuesday, November seventeenth, with doctor Zebneel Lykovsky and doctor Kelly Noble. Would you like an appointment at two PM with doctor Lukowski?
+[01:28] turn-012 PATIENT: That works if it’s after 2 pm, yes.
+[01:35] turn-013 RECEPTIONIST: Your appointment is set for Tuesday, November seventeenth at two thirty PM with doctor Zebigniew Lukowski at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your medications, and any imaging discs if you have them. You like me to text you these appointment details?
+[01:57] turn-014 PATIENT: Yes, please text them to me.
+[02:02] turn-015 RECEPTIONIST: You'll get a text with your appointment details soon. There anything else I can help you with today?
+[02:09] turn-016 PATIENT: No, that’s all. Thanks, goodbye.
+[02:14] turn-017 RECEPTIONIST: You're all set. Have a great day.

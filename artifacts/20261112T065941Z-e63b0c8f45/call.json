@@ -1,0 +1,33 @@
+{
+  "run_id": "20261112T065941Z-e63b0c8f45",
+  "scenario": {
+    "id": "01-schedule",
+    "title": "New appointment with a time constraint",
+    "opening": "I'd like to schedule a routine appointment for next week.",
+    "goal": "Request a weekday appointment after 2 pm and confirm the actual next step.",
+    "steps": [
+      "Explain you prefer next Tuesday after 2 pm.",
+      "Answer identity and appointment-type questions as asked.",
+      "If unavailable, ask for Thursday after 2 pm.",
+      "Confirm the final month, date, time and location, or how staff will get back to you."
+    ],
+    "probes": [
+      "Does it preserve the after-2-pm constraint?",
+      "Does it distinguish a request from a confirmed booking?"
+    ]
+  },
+  "caller_id": "+15025032611",
+  "destination": "+18054398008",
+  "room": "patient-test-20261112T065941Z-e63b0c8f45",
+  "created_at": 1794466781.1196656,
+  "answered_at": 1794466787.3404772,
+  "models": {
+    "stt": "deepgram/nova-3",
+    "llm": "openai/gpt-5.4-mini",
+    "tts": "cartesia/sonic-3"
+  },
+  "turn_detection": "semantic",
+  "sdk_version": "1.8.11",
+  "sip_call_id": "SCL_3WGvUdZYBuoZ",
+  "sip_participant_id": "PA_VqCa5xoh8zY4"
+}

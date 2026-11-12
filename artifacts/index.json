@@ -1,0 +1,25 @@
+{
+  "calls": [
+    {
+      "run_id": "20261112T065941Z-e63b0c8f45",
+      "scenario_id": "01-schedule",
+      "title": "New appointment with a time constraint",
+      "status": "complete",
+      "end_reason": "goal_resolved",
+      "technical_issues": [],
+      "review_issues": [
+        "Review not confirmed: listened_to_audio",
+        "Review not confirmed: both_sides_clear",
+        "Review not confirmed: full_conversation",
+        "Review not confirmed: transcript_checked"
+      ],
+      "eligible": false
+    }
+  ],
+  "total_attempts": 1,
+  "reviewed_complete_calls": 0,
+  "caller_ids": [
+    "+15025032611"
+  ],
+  "single_caller_id": true
+}

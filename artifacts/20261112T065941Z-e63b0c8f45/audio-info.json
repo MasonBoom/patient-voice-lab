@@ -1,0 +1,19 @@
+{
+  "codec": "opus",
+  "channels": 2,
+  "sample_rate": 48000,
+  "duration_seconds": 139.779,
+  "rms_dbfs": [
+    -22.9,
+    -30.36
+  ],
+  "active_seconds": [
+    37.787,
+    11.426
+  ],
+  "channel_map": {
+    "0": "receptionist",
+    "1": "patient"
+  },
+  "note": "Signal presence does not establish intelligibility; listen to both channels."
+}

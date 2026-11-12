@@ -1,0 +1,160 @@
+{
+  "source": "LiveKit committed session history",
+  "recording_epoch": 1794466782.1520553,
+  "note": "ASR and spoken-text alignment may contain errors. Verify quotes against audio.",
+  "turns": [
+    {
+      "id": "turn-001",
+      "speaker": "receptionist",
+      "text": "This call may be recorded for quality and training purposes.",
+      "start_seconds": 5.616,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_b7a1df335db2"
+    },
+    {
+      "id": "turn-002",
+      "speaker": "patient",
+      "text": "Hi, I’d like to schedule a routine",
+      "start_seconds": 12.914,
+      "timing_source": "speech_metrics",
+      "interrupted": true,
+      "message_id": "item_0189d8e18a65"
+    },
+    {
+      "id": "turn-003",
+      "speaker": "receptionist",
+      "text": "Thank you for",
+      "start_seconds": 13.764,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_54d6bdee4c4e"
+    },
+    {
+      "id": "turn-004",
+      "speaker": "patient",
+      "text": "I’d like to schedule a routine appointment for next week, preferably next Tuesday after 2 pm.",
+      "start_seconds": 15.703,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_35ee58b6b3a0"
+    },
+    {
+      "id": "turn-005",
+      "speaker": "receptionist",
+      "text": "I can help with that. Before we get started, would you like to create a demo patient profile? I just need your first and last name.",
+      "start_seconds": 24.114,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_d602e1829a1a"
+    },
+    {
+      "id": "turn-006",
+      "speaker": "patient",
+      "text": "Yes — Mason Boomgaard.",
+      "start_seconds": 32.367,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_694b58807dbb"
+    },
+    {
+      "id": "turn-007",
+      "speaker": "receptionist",
+      "text": "Your patient profile is set up. And your date of birth is July fourth two thousand for demo purposes. How could I go for you today?",
+      "start_seconds": 43.316,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_2dbc7ce538bd"
+    },
+    {
+      "id": "turn-008",
+      "speaker": "patient",
+      "text": "I’m calling for a routine orthopedic visit for mild knee discomfort after exercise.",
+      "start_seconds": 53.832,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_c0bdbce09bf0"
+    },
+    {
+      "id": "turn-009",
+      "speaker": "receptionist",
+      "text": "To confirm, you'd like to book a general office visit for a routine orthopedic checkup about your knee discomfort. Is that right?",
+      "start_seconds": 61.666,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_3bc4cf90921c"
+    },
+    {
+      "id": "turn-010",
+      "speaker": "patient",
+      "text": "Yes, that’s right.",
+      "start_seconds": 69.852,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_1e29dd8e597c"
+    },
+    {
+      "id": "turn-011",
+      "speaker": "receptionist",
+      "text": "There are openings next Tuesday, November seventeenth, with doctor Zebneel Lykovsky and doctor Kelly Noble. Would you like an appointment at two PM with doctor Lukowski?",
+      "start_seconds": 75.766,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_6422cf055395"
+    },
+    {
+      "id": "turn-012",
+      "speaker": "patient",
+      "text": "That works if it’s after 2 pm, yes.",
+      "start_seconds": 88.355,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_594254e76dc4"
+    },
+    {
+      "id": "turn-013",
+      "speaker": "receptionist",
+      "text": "Your appointment is set for Tuesday, November seventeenth at two thirty PM with doctor Zebigniew Lukowski at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your medications, and any imaging discs if you have them. You like me to text you these appointment details?",
+      "start_seconds": 95.617,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_4372e39cf495"
+    },
+    {
+      "id": "turn-014",
+      "speaker": "patient",
+      "text": "Yes, please text them to me.",
+      "start_seconds": 117.323,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_cd9522dde9a4"
+    },
+    {
+      "id": "turn-015",
+      "speaker": "receptionist",
+      "text": "You'll get a text with your appointment details soon. There anything else I can help you with today?",
+      "start_seconds": 122.716,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_27cfb79c1c93"
+    },
+    {
+      "id": "turn-016",
+      "speaker": "patient",
+      "text": "No, that’s all. Thanks, goodbye.",
+      "start_seconds": 129.819,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_a4f6fbdbbf86"
+    },
+    {
+      "id": "turn-017",
+      "speaker": "receptionist",
+      "text": "You're all set. Have a great day.",
+      "start_seconds": 134.716,
+      "timing_source": "speech_metrics",
+      "interrupted": false,
+      "message_id": "item_0f43366d29d8"
+    }
+  ]
+}
