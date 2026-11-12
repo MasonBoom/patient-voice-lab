@@ -1,8 +1,8 @@
 {
-  "listened_to_audio": false,
-  "both_sides_clear": false,
-  "full_conversation": false,
-  "transcript_checked": false,
-  "outcome": "pending",
-  "notes": "Listen to this real call, then set these review fields honestly."
+  "listened_to_audio": true,
+  "both_sides_clear": true,
+  "full_conversation": true,
+  "transcript_checked": true,
+  "outcome": "Appointment verbally confirmed; backend booking not verified.",
+  "notes": "User listened to the recording and confirmed both speakers are clear and the transcript matches. Receptionist offered 2:00 PM at 01:15, then confirmed 2:30 PM at 01:35 after the patient reiterated after 2 PM. Candidate confirmation issue: revised time was not explicitly offered for acceptance."
 }
